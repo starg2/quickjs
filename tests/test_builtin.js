@@ -438,7 +438,6 @@ function test_typed_array()
     a[0] = 1;
     
     a = new Uint8Array(buffer);
-
     str = a.toString();
     /* test little and big endian cases */
     if (str !== "0,0,255,255,0,0,0,0,0,0,128,63,255,255,255,255" &&
